@@ -1,0 +1,35 @@
+h1,p {
+    margin: 0;
+}
+
+hr {
+    padding: 0;
+}
+
+.card-top {
+    border: 1px solid grey;
+    border-radius: 14px 14px 0 0;
+    width: 450px;
+    padding: 20px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.card-bottom {
+    border: 1px solid grey;
+    border-radius: 0 0 14px 14px;
+    width: 450px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    background-color:slateblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
