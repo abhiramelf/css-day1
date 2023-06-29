@@ -47,6 +47,7 @@ p {
 
 .btn:hover {
     cursor: pointer;
+    background-color: rgb(60, 60, 60);
 }
 
 .sign-up {
@@ -66,4 +67,8 @@ p {
 
 .policy a {
     color: gray;
+}
+
+.policy a:hover {
+    color: rgb(83, 83, 83);
 }
