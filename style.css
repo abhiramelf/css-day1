@@ -1,35 +1,82 @@
-h1,p {
-    margin: 0;
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(231, 231, 36);
 }
 
-hr {
-    padding: 0;
+h1,p {
+    margin: 0;
+    margin: 10px;
+}
+
+p {
+    font-weight: bold;
 }
 
 .card-top {
-    border: 1px solid grey;
-    border-radius: 14px 14px 0 0;
-    width: 450px;
+    width: 400px;
     padding: 20px;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
     text-align: center;
 }
 
+.user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .card-bottom {
-    border: 1px solid grey;
-    border-radius: 0 0 14px 14px;
-    width: 450px;
+    width: 400px;
     padding: 20px;
     margin: 0 auto 0 auto;
     text-align: center;
 }
 
-.btn {
+.btn-bd {
     width: 100%;
-    background-color:slateblue;
-    border: none;
-    border-radius: 10px;
+    background-color:red;
+    border: 2px solid black;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
     box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-yp {
+    width: 100%;
+    background-color: deepskyblue;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-s {
+    width: 100%;
+    background-color:plum;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-l {
+    width: 100%;
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-bd:hover, .btn-yp:hover, .btn-l:hover, .btn-s:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px;
 }
